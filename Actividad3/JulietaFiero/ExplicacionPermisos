@@ -1,0 +1,22 @@
+Niveles y tipos de permisos para archivos
+R: 
+
+Niveles: 
+	Propietario (owner)
+	Usuarios de mismo grupo (group)
+	otros que no están en el mismo grupo
+Tipo de permisos:  rwx
+	Lectura (read 'r')
+	Escritura (write 'w')
+	Ejecutable (excecutable 'x')
+
+Los permisos se pueden cambiar con 
+chmod
+
+
+Explicación de permisos para carpetas
+De igual manera con chmod
+chgrp
+chown
+dependiendo de que nivel de usuario se le quiera asignar.
+Si se quieren modificar las propiedades a todos los archivos de una carpeta , es con -R
